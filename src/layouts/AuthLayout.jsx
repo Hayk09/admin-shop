@@ -1,13 +1,16 @@
 import React from "react";
 import { Box } from "@chakra-ui/react";
 import Header from "../components/Header/Header";
-function AuthLayout({children}){
-    return(
+import Footer from "../components/Footer/Footer";
+
+function AuthLayout({ children }) {
+  return (
     <Box>
-    <Header />
-    {children} 
-    </Box>           
-    )
+      <Header />
+      {children}
+      <Footer />
+    </Box>
+  );
 }
 
-export default AuthLayout
+export default AuthLayout;
