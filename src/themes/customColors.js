@@ -8,6 +8,10 @@ export const customColors = defineStyleConfig({
          30: "#212526",
          40: "#313C4E"
       },
+      brand: {
+        100: "#101727",
+        200: "#0EB581",
+      },
           primary: {
             500: "#FFA500",
             600: "#FF8C00",

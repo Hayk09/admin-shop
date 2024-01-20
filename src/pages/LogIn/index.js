@@ -1,12 +1,15 @@
-import React from "react";
 import { Flex } from "@chakra-ui/react";
+import React from "react";
 
-function Home(){
+function LogIn(){
     return(
         <Flex>
-           awdawdawd
+            lOGIN
         </Flex>
     )
+
+
 }
 
-export default Home
+
+export default LogIn

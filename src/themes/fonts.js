@@ -17,7 +17,7 @@ export const customFonts = defineStyleConfig({
   })
   export const customFontFamely = defineStyleConfig({
     fonts: {
-        heading: "Helvetica, Arial, sans-serif",
-        body: "Georgia, serif",
+        heading: "Raleway",
+        body: "Raleway",
       }
   })
