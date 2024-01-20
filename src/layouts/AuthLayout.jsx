@@ -1,12 +1,12 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Header from "../components/Header/Header";
 function AuthLayout({children}){
     return(
-    <Box>
+    <Flex>
     <Header />
     {children} 
-    </Box>           
+    </Flex>           
     )
 }
 
