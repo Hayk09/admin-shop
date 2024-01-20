@@ -4,7 +4,7 @@ import React from "react";
 function Header(){
     return(
         <Flex>
-            Header
+            in mY header
         </Flex>
     )
 }
